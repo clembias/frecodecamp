@@ -1,3 +1,9 @@
+:root {
+  --black: #000000;
+  --white: #ffffff;
+
+}
+
 #image {
     max-width: 100%;
     height: auto;
@@ -9,28 +15,35 @@
   }
   
   main {
-    background-color: #ffffff;
+    background-color: var(--white);
   }
   h1 {
     font-size: 4rem;
     text-align: center;
-    color: #ffffff;
+    color: var(--white);
     margin: 20px;
   }
   
   header {
-    background-color: #000000;
+    background-color: var(--black);
+  }
+  
+  nav > ul {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
   }
   
   .white-background {
-    background-color: #ffffff;
-    color: #000000;
+    background-color: var(--white);
+    color: var(--black);
     
   }
   
   .black-background {
-    background-color : #000000;
-    color: #ffffff;
+    background-color : var(--black);
+    color: var(--white);
   }
   
   h2 {
