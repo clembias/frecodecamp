@@ -18,6 +18,7 @@
     background-color: var(--white);
   }
   h1 {
+    font-family: "Oswald", sans-serif;
     font-size: 4rem;
     text-align: center;
     color: var(--white);
@@ -28,13 +29,13 @@
     background-color: var(--black);
   }
   
-  nav > ul {
+  nav ul {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
     align-items: center;
   }
-  
+
   .white-background {
     background-color: var(--white);
     color: var(--black);
@@ -91,3 +92,20 @@
   footer {
     padding: 10px;
   }
+
+  .material-symbols-outlined {
+    font-family: 'Material Symbols Outlined';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 30px;  /* Preferred icon size */
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+    color : var(--white)
+  }
+  
+  
