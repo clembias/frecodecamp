@@ -1,0 +1,48 @@
+:root {
+    --mercury-color: #BFBEBD;
+    --venus-color: #D9B391;
+    --earth-color: #6387A6;
+    --mars-color: #F27A5E;
+    
+
+}
+
+
+@media (min-width=480px) and (max-width=1999px) {
+    h1 {
+      color: red;
+    }
+    }
+  ul  {
+    list-style-type: none;
+  }
+  
+  
+  p {
+  
+  }
+  
+  header {
+    font-weight: bold;
+    
+  }
+  
+  li {
+    margin:5px;
+  }
+
+#navbar {
+    height: 100vh; /* Full height */
+    width: 250px; /* Width of the sidebar */
+    position: fixed; /* Fixed position */
+    top: 0; /* Stay at the top */
+    left: 0; /* Align to the left */
+    background-color: ; /* Background color */
+    color: ; /* Text color */
+    padding: 20px; /* Padding */
+}
+
+#main-doc {
+    margin-left: 270px;
+    padding: 20px;
+}
