@@ -9,7 +9,9 @@
     --neptune-color: #789EBF; 
 
 }
-
+html {
+  background : black;
+}
 
 @media (min-width=480px) and (max-width=1999px) {
     h1 {
@@ -25,8 +27,12 @@
   
   }
   
+  h1 { 
+    color:white;
+  }
   header {
     font-weight: bold;
+    color: white;
     
   }
   
@@ -39,7 +45,7 @@
     width: 200px; 
     position: fixed; 
     left: 0; 
-    background-color: ; 
+    background-color: black ; 
     color: ; 
     padding: 20px; 
 }
@@ -47,4 +53,46 @@
 #main-doc {
     margin-left: 250px;
     padding: 20px;
+    text-align: center;
+}
+
+#Mercury {
+  background: var(--mercury-color) ;
+    
+   
+}
+
+#Venus {
+  background:  var(--venus-color) ;
+  
+}
+
+#Earth {
+  background : var(--earth-color);
+    
+}
+
+#Mars {
+  background: var(--mars-color);
+    
+}
+
+#Jupiter {
+  background: var(--jupiter-color);
+ 
+}
+
+#Saturn {
+  background: var(--saturn-color);
+   
+}
+
+#Uranus {
+  background: var(--uranus-color);
+  
+}
+
+#Neptune {
+  background:  var(--neptune-color);
+  
 }
