@@ -3,7 +3,10 @@
     --venus-color: #D9B391;
     --earth-color: #6387A6;
     --mars-color: #F27A5E;
-    
+    --jupiter-color: #bf8136;
+    --saturn-color: #D9B779;
+    --uranus-color: #95BBBF;
+    --neptune-color: #789EBF; 
 
 }
 
@@ -32,17 +35,16 @@
   }
 
 #navbar {
-    height: 100vh; /* Full height */
-    width: 250px; /* Width of the sidebar */
-    position: fixed; /* Fixed position */
-    top: 0; /* Stay at the top */
-    left: 0; /* Align to the left */
-    background-color: ; /* Background color */
-    color: ; /* Text color */
-    padding: 20px; /* Padding */
+    height: 100vh; 
+    width: 200px; 
+    position: fixed; 
+    left: 0; 
+    background-color: ; 
+    color: ; 
+    padding: 20px; 
 }
 
 #main-doc {
-    margin-left: 270px;
+    margin-left: 250px;
     padding: 20px;
 }
