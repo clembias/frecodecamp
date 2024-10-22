@@ -1,133 +1,115 @@
 :root {
-    --mercury-color: #BFBEBD;
-    --venus-color: #D9B391;
-    --earth-color: #6387A6;
-    --mars-color: #F27A5E;
-    --jupiter-color: #bf8136;
-    --saturn-color: #D9B779;
-    --uranus-color: #95BBBF;
-    --neptune-color: #789EBF; 
-
+  --mercury-color: #bfbebd;
+  --venus-color: #d9b391;
+  --earth-color: #6387a6;
+  --mars-color: #f27a5e;
+  --jupiter-color: #bf8136;
+  --saturn-color: #d9b779;
+  --uranus-color: #95bbbf;
+  --neptune-color: #789ebf;
 }
 html {
-  background-image : url(https://images.unsplash.com/photo-1525352265139-caa4490ea6d0?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
-  
+  background-image: url(https://images.unsplash.com/photo-1525352265139-caa4490ea6d0?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
 }
 
 @media (min-width=480px) and (max-width=1999px) {
-    h1 {
-      color: red;
-    }
-    }
-  ul  {
-    list-style-type: none;
+  h1 {
+    color: red;
   }
-  .side-list {
-    margin: 5px;
-  }
-  
-  p {
-    font-family: "Roboto", sans-serif;
-    font-weight : 700;
-    
+}
+ul {
+  list-style-type: none;
+}
+.side-list {
+  margin: 5px;
+}
 
-  }
-  .small-description {
-    font-family: "Roboto", sans-serif;
-    font-style: italic;
-    font-weight : 600;
-    margin-left: 10px;
-    margin-right: 10px;
+p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+}
+.small-description {
+  font-family: "Roboto", sans-serif;
+  font-style: italic;
+  font-weight: 600;
+  margin-left: 10px;
+  margin-right: 10px;
+}
 
-  }
-
-  
-  h1 { 
-    color:white;
-    font-family: "Montserrat" , sans-serif;
-    font-style : italic;
-    font-weight: 800;
-  }
-  header {
-    font-family: "Roboto", sans-serif;
-    font-weight: 1300;
-    color: white;
-    margin-bottom: 5px;
-    margin-top: 2px;
-    font-style: bold;
-    
-  }
-  .planet-name {
-    color: black;
-    font-family: "Roboto", sans-serif;
-    font-weight: 900;
-    margin-bottom: 5px;
-    padding-top: 8px;
-    font-style: bold;
-
-  }
-  .satelite-list {
-    text-align: center;
-    padding-bottom: 5px;
-    padding-left: 0px;
-  }
+h1 {
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-style: italic;
+  font-weight: 800;
+}
+header {
+  font-family: "Roboto", sans-serif;
+  font-weight: 1300;
+  color: white;
+  margin-bottom: 5px;
+  margin-top: 2px;
+  font-style: bold;
+}
+.planet-name {
+  color: black;
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  margin-bottom: 5px;
+  padding-top: 8px;
+  font-style: bold;
+}
+.satelite-list {
+  text-align: center;
+  padding-bottom: 5px;
+  padding-left: 0px;
+}
 
 #navbar {
-    height: 100vh; 
-    width: 200px; 
-    position: fixed; 
-    left: 0; 
-    background-color: transparent ; 
-    padding: 20px; 
+  height: 100vh;
+  width: 200px;
+  position: fixed;
+  left: 0;
+  background-color: transparent;
+  padding: 20px;
 }
 .nav-link {
-    font-weight:900;
+  font-weight: 900;
 }
 
 #main-doc {
-    margin-left: 250px;
-    padding: 20px;
-    text-align: center;
+  margin-left: 250px;
+  padding: 20px;
+  text-align: center;
 }
 
 #Mercury {
-  background: var(--mercury-color) ;
-    
-   
+  background: var(--mercury-color);
 }
 
 #Venus {
-  background:  var(--venus-color) ;
-  
+  background: var(--venus-color);
 }
 
 #Earth {
-  background : var(--earth-color);
-    
+  background: var(--earth-color);
 }
 
 #Mars {
   background: var(--mars-color);
-    
 }
 
 #Jupiter {
   background: var(--jupiter-color);
- 
 }
 
 #Saturn {
   background: var(--saturn-color);
-   
 }
 
 #Uranus {
   background: var(--uranus-color);
-  
 }
 
 #Neptune {
-  background:  var(--neptune-color);
-  
+  background: var(--neptune-color);
 }
-
