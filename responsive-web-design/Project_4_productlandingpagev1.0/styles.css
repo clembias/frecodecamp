@@ -1,0 +1,21 @@
+#header {
+    position : fixed;
+    top: 0;
+    padding: 50px;
+  }
+  
+  #form {
+    position : fixed;
+    bottom : 0;
+  }
+  
+  @media (min-witdh=400px) and (max-width=1999px) {
+    #product {
+      color: red;
+    }
+  }
+  
+  #product {
+    display : flex ;
+    justify-content: center;
+  }
