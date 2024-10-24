@@ -113,3 +113,7 @@ header {
 #Neptune {
   background: var(--neptune-color);
 }
+
+footer {
+  color: white;
+}
