@@ -68,7 +68,7 @@ h1 {
   }
 
 
- main{
+main{
     padding-top: 10px;
   }
 #product {
@@ -87,18 +87,43 @@ ul {
     padding-right : 15px;
 }
 #video {
-    display: block; 
+    display: block;
     margin: 0 auto; 
     max-width: 100%; 
     height: auto; 
 }
 #form {
-    position : fixed;
-    bottom : 5px;
-    background-color: gainsboro;
-    padding-right: 20px;
-    padding-left: 20px;
-  }
+    background-color: #615f6722; 
+    padding: 20px;
+    border-radius: 5px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    max-width: 400px; 
+    margin: 0 auto; 
+}
+
+#form p {
+    margin-bottom: 15px; 
+}
+
+input[type="email"] {
+    width: calc(100% - 20px); /* Full width minus padding */
+    padding: 10px;
+    margin-bottom: 10px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+}
+input[type="submit"] {
+    background-color: var(--brand-blue);
+    color: white; 
+    border: none; 
+    padding: 10px 15px; 
+    border-radius: 4px; 
+    cursor: pointer; 
+}
+
+input[type="submit"]:hover {
+    background-color: var(--darker-blue);
+}
   
 
   
