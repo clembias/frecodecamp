@@ -24,7 +24,7 @@
     list-style: none;
     margin: 0; 
     background: var(--brand-blue);
-  }
+}
   
   .navigation a {
     text-decoration: none;
@@ -61,50 +61,54 @@
 
 h1 {
     text-align: center;
-    margin-top: -100px;
+    margin-top: -125px;
     margin-bottom: 0px;
     color : white;
     font-size: 50pt;
   }
+html {
+  background-color: azure;
+}
 
 main{
     padding-top: 10px;
-    background-color: azure;
-  }
+}
 #presentation-picture {
   width: 563px;
   height: 845px;
 }
-  #product {
+
+#product {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding-bottom: 10px;
     font-size: 30px;
+}
 
-}
 ul {
-    list-style-type: none;
-    
+    list-style-type: none;    
 }
+
 .icon {
     padding-top : 20px;
     padding-right : 15px;
     width : 50px;
     height : 50px;
 }
+
 #video {
     display: block;
     margin: 0 auto; 
     max-width: 100%; 
     height: auto; 
 }
+
 #form {
     background-color: #615f6722; 
     padding: 20px;
     border-radius: 5px; 
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
     max-width: 400px; 
     margin: 0 auto; 
 }
@@ -114,12 +118,13 @@ ul {
 }
 
 input[type="email"] {
-    width: calc(100% - 20px); /* Full width minus padding */
+    width: calc(100% - 20px); 
     padding: 10px;
     margin-bottom: 10px; 
     border: 1px solid #ccc; 
     border-radius: 4px; 
 }
+
 input[type="submit"] {
     background-color: var(--brand-blue);
     color: white; 
