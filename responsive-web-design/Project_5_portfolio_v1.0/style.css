@@ -6,7 +6,23 @@
 
 }
 
+html {
+  scroll-snap-type: y mandatory;
 
+}
+#about {
+  height: 100vh;
+  width: 100vw;
+  scroll-snap-align: start;
+}
+#projects {
+  height: 100vh;
+  width: 100vw;
+  scroll-snap-align: start;
+}
+#contact {
+  scroll-snap-align: start;
+}
   
 #navbar {
     position: fixed;
@@ -16,6 +32,7 @@
     width: 100%;
     padding-left: 0px;
     z-index: 1;
+    margin-bottom: 30px;
   
 }
 #navbar li {
@@ -59,11 +76,14 @@ h2 {
 
 
 /* Skills bars debut */
-.credentials{
-  width: 100%;
-  max-width: 600px;
+#credentials{
+  height: 100vh;
+  width: 100vw;
+  scroll-snap-align: start;
   padding: 0 20px;
+
 }
+
 
 .certif-name{
   font-size: 18px;
@@ -142,29 +162,8 @@ h2 {
   width: 240px; 
   height: auto; 
 }
-/*
- .overlay {
-  position : absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  opacity: 0;
-  transition: opacity 0.4s ease-in-out;
-  background: red;
-  cursor : pointer;
-}
-.content {
-  position: absolute;
-  top : 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: white;
-  text-align: center;
-}
-.project-list:hover .overlay {
-  opacity: 0.8;
-} */
+
+ 
 /* Project preview end */
 
 footer {
