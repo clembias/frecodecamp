@@ -1,4 +1,8 @@
 :root {
+  
+  --light-red: #FF0000;
+  --headandfooter: #9400FF;
+  --textcolor: white;
 
 }
 
@@ -8,7 +12,7 @@
     position: fixed;
     top: 0;
     left: 0;
-    background-color : black;
+    background-color : var(--headandfooter);
     width: 100%;
     padding-left: 0px;
     z-index: 1;
@@ -23,23 +27,24 @@
   text-decoration: none;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 400;
-  color: white;
+  color: var(--textcolor);
   
 }
 .nav-link:hover {
-  color: red;
+  background-color: var(--light-red);
 }
 ul {
   list-style-type: none;
 }
 
 body {
-  background-color: gray;
+  background-color: ;
     margin: 0;
     padding: 0;
     min-height: 100vh; 
     display: flex;
     flex-direction: column;
+    
 }
 main {
   padding-left: 15px;
@@ -54,41 +59,39 @@ h2 {
 
 
 /* Skills bars debut */
-.skills{
+.credentials{
   width: 100%;
   max-width: 600px;
-}
-.skill {
   padding: 0 20px;
 }
 
-.skill-name{
+.certif-name{
   font-size: 18px;
   font-weight: 700;
-  color: #f1f1f1;
+  color: black;
   text-transform: uppercase;
   margin: 20px 0;
 }
 
-.skill-bar{
+.certif-bar{
   height: 14px;
-  background: #282828;
+  background: black;
   border-radius: 3px;
 }
 
-.skill-per{
+.certif-per{
   height: 14px;
-  background: #d13639;
+  background: var(--light-red);
   border-radius: 3px;
   position: relative;
   animation: fillBars 2.5s 1;
 }
 
-.skill-per::before{
+.certif-per::before{
   content: attr(per);
   position: absolute;
   padding: 4px 6px;
-  background: #f1f1f1;
+  background: var(--textcolor);
   border-radius: 4px;
   font-size: 12px;
   top: -35px;
@@ -96,12 +99,12 @@ h2 {
   transform: translateX(50%);
 }
 
-.skill-per::after{
+.certif-per::after{
   content: "";
   position: absolute;
   width: 10px;
   height: 10px;
-  background: #f1f1f1;
+  background:;
   top: -20px;
   right: 0;
   transform: translateX(50%) rotate(45deg);
@@ -165,27 +168,39 @@ h2 {
 /* Project preview end */
 
 footer {
-  background-color: aqua;
-  
+  background-color: var(--headandfooter);
+  display:flex;
+  justify-content: center;
+  align-items: center;
 }   
 footer h3 {
-  padding-left: 10px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  
 
 }
-form {
+/* form {
   display:flex;
   flex-direction: column;
   margin-left: 25%;
   margin-right: 25%;
-  
+} */
+input {
+  margin: 5px;
+}
+.message-input {
+  height : 50px;
 }
 .icon {
   width : 75px;
   height: auto;
-  
+  padding: 5px;
 }
-
+.mail-icon {
+  width : 50px;
+  padding: 5px;
+}
 .social-icon {
   margin-top: 20px;
-  
 }
