@@ -1,83 +1,109 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="style.css" />
-  <title>Clement B. Portfolio</title>
-  </head>
-  <body>
-    <nav id="navbar">
-      <ul>
-        <li><a href="#projects" class="nav-link">Projects</a></li>
-        <li><a href="#about" class="nav-link">About me</a></li>
-        <li><a href="https://github.com/clembias" id="profile-link" target="_blank" class="nav-link">My Github</a></li>
-        <li><a href="#contact" class="nav-link">Contact</a></li>
-    </nav>
-    <main>
-    <div id="welcome-section">
-    <h1>Clement B. Web develloper student</h1>
-    </div>
+<!DOCTYPE HTML>
+<html>
 
-  <div id="about">
-    <h2>About me</h2>
-    <p>Hi! I'm Clement B. a new web develloper still in a learning phase. I am working on differents projects to increase my coding skills and kwowledges. I have interest in .... I speak french and english. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa, nobis! Dolorum voluptate explicabo, ullam obcaecati ratione odio eaque minus iusto, veritatis facilis consequuntur ex debitis. Porro asperiores inventore cumque commodi?</p>
-  </div>
-  <div id="credentials">
-    <h2>My credentials and certifications</h2>
-    <h3>Obtained</h3>
-    <img src="https://skillsbuild.org/_next/image?url=https%3A%2F%2Fskillsbuild.org%2Fmedia%2F2023%2F02%2FWeb_Development_Fundamentals.png&w=640&q=75" alt="Logo of web dev funamentals by skills build" width="75px">
-    <h3>Ongoing</h3>
-    Freecodecamp
-    <div class="certif">
-      <div class="certif-name">Reponsive Web design</div>
-      <div class="certif-bar">
-        <div class="certif-per" per="95%" style="max-width:95%"></div>
-      </div>
-    </div>
-    <div class="certif">
-      <div class="certif-name">Javascript Algorithms and Data Structures</div>
-      <div class="certif-bar">
-        <div class="certif-per" per="5%" style="max-width:5%"></div>
-      </div>
-    </div> 
-  </div>
+<head>
+	<title>ClemBias Portfolio</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="/style.css" />
+</head>
 
-  
-  <div id="projects">
-    <h2>My projects</h2>
-    <div class="project-list">
-      <div class="first-project">
-        <a href="https://github.com/clembias/frecodecamp" class="project-link" target="_blank"><img src="https://images.pexels.com/photos/129208/pexels-photo-129208.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="illustration image" class="project-img">
-        <div class="overlay">
-          <div class="content">
-            <p>My first project</p></a>
+<body>
+	<header id="header">
+		<nav id="navbar">
+			<ul>
+				<li><a href="#projects" class="nav-link">Projects</a></li>
+				<li><a href="#about" class="nav-link">About me</a></li>
+				<li><a href="https://github.com/clembias" id="profile-link" target="_blank" class="nav-link">My
+						Github</a></li>
+				<li><a href="#contact" class="nav-link">Contact</a></li>
+		</nav>
+	</header>
+
+	<!-- About me/Banner -->
+	<section id="banner welcome-section">
+		<div class="inner" id="about">
+			<h1>ClemBias Web developper</h1>
+			<img src="/illustration.svg" alt="Illustration of a working dev">
+			<p class="about">Hi! I'm Clement B. a new web develloper still in a learning phase. I am working on differents projects to
+				increase my coding skills and kwowledges. I speak french and english</p>
+			
+		</div>
+	</section>
+
+	<!-- Credentials/CTA -->
+	<section id="cta" class="wrapper">
+		<div class="inner credentials">
+			<h2>My credentials and certifications</h2>
+			<h3>Obtained</h3>
+			<a href="https://www.credly.com/badges/cbd0f79e-e843-4e4a-8ccb-5021b0d82867/public_url" target="_blank"><img src="https://skillsbuild.org/_next/image?url=https%3A%2F%2Fskillsbuild.org%2Fmedia%2F2023%2F02%2FWeb_Development_Fundamentals.png&w=640&q=75" alt="Logo of web dev funamentals by skills build" width="75px"></a>
+			<h3>Ongoing</h3>
+			Freecodecamp
+			<div class="certif">
+				<div class="certif-name">Reponsive Web design</div>
+				<div class="certif-bar">
+					<div class="certif-per" per="95%" style="max-width:95%"></div>
+				</div>
+			</div>
+			<div class="certif">
+				<div class="certif-name">Javascript Algorithms and Data Structures</div>
+				<div class="certif-bar">
+					<div class="certif-per" per="5%" style="max-width:5%"></div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Projects -->
+	<h2>My projects</h2>
+	<div class="ag-format-container" id="projects">
+		<div class="ag-courses_box">
+			<div class="ag-courses_item">
+				<a href="https://github.com/clembias/frecodecamp" class="ag-courses-item_link" target="_blank">
+					<div class="ag-courses-item_bg"></div>
+					<div class="ag-courses-item_title">
+						Freecodecamp Certifications Projects
+					</div>
+				</a>
+			</div>
+
+			<div class="ag-courses_item">
+				<a href="http://www.google.com" class="ag-courses-item_link" target="_blank">
+					<div class="ag-courses-item_bg"> 
           </div>
-          <div class="second-project">
-            <a href="https://github.com/clembias/frecodecamp" class="project-link" target="_blank"><img src="https://images.pexels.com/photos/129208/pexels-photo-129208.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="illustration image" class="project-img">
-            <div class="overlay">
-              <div class="content">
-                <p>My second project</p></a>
-              </div>
-        </div>
-      </div>
-      </div>
-  </div>
-  </main>
-  </body>
-  <footer id="contact">
-    <h3>Contact me</h3>
-    <!-- <form>
-      <input type="text" label="name" placeholder="Full Name">
-      <input type="mail" label="mail" placeholder="example@example.com">
-      <input type="text" label="message" class="message-input" placeholder="Your message">
-      <input type="submit" label="send" value="Send">
-    </form> -->
-    <a href="mailto:clembias.dev@protonmail.com" target="_blank"><img src="mail-icon.svg" alt="mail-icon" class="mail-icon">clembias.dev@protonmail.com</a>
-    <div class="social-icon">
-        <a href="http://www.linkedin.com" target="_blank"><img src="/linkedin-icon.svg" alt="linkedin-icon" class="icon"></a>
-        <a href="http://www.github.com/clembias" target="_blank"><img src="/github-icon.svg" alt="github-icon" class="icon"></a>
-    </div>
-  </footer>
+					<div class="ag-courses-item_title">
+						Project 2 
+					</div>
+				</a>
+			</div>
+	</div>
+	</div>
+
+	<!-- Contact/Footer -->
+	<footer id="footer">
+		<div class="inner">
+			<div class="content" id="contact">
+				<section>
+					<h3>Looking forward to our next conversation</h3>
+					<a href="mailto:clembias.dev@protonmail.com" target="_blank"><img src="/mail-icon.svg"
+							alt="mail-icon" class="icon" width="30px">clembias.dev@protonmail.com</a>
+				</section>
+
+				<section>
+					<h4>Socials</h4>
+					<ul class="plain">
+						<li><a href="http://www.linkedin.com" target="_blank"><img src="/linkedin-icon.svg"
+									alt="linkedin-icon" class="icon">LinkedIn</a></li>
+						<li><a href="http://www.github.com/clembias" target="_blank"><img src="/github-icon.svg"
+									alt="github-icon" class="icon">Github</a></li>
+					</ul>
+				</section>
+			</div>
+			<div class="copyright">
+				ClemBias Student Web developper. 2024.
+			</div>
+		</div>
+	</footer>
+</body>
+
 </html>
-<!-- verify responsive >
