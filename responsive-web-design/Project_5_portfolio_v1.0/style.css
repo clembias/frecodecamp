@@ -873,8 +873,8 @@ li {
 }
 @media only screen and (max-width: 979px) and (min-width: 768px) {
   .ag-courses_item {
-    -ms-flex-preferred-size: calc(50% - 30px); 
-    flex-basis: calc(50% - 30px);
+    -ms-flex-preferred-size: calc(33% - 30px); 
+    flex-basis: calc(33% - 30px);
   }
   .ag-courses-item_title {
     font-size: 26px; 
