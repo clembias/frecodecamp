@@ -697,6 +697,7 @@ body.is-preload #banner:before {
 }
 li {
   padding-bottom: 10px;
+  padding-left : 30px;
 }
 /* Main */
 #main .content {
