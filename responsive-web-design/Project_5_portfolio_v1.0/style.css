@@ -594,23 +594,15 @@ body.is-preload #banner:before {
   position: relative;
   z-index: 3;
 }
-@media screen and (max-width: 980px) {
-  #cta {
-    background-attachment: scroll;
-  }
-}
+
 
 /* Footer */
 #footer {
   background-color: var(--black);
   color: var(--white);
-  padding: 8rem 0 6rem 0;
+  padding: 6rem 0 4rem 0;
 }
-#footer input,
-#footer select,
-#footer textarea {
-  color: var(--white);
-}
+
 #footer a {
   color: var(--main-color);
 }
@@ -628,10 +620,10 @@ body.is-preload #banner:before {
 }
 
 #footer hr {
-  border-bottom-color: rgba(255, 255, 255, 0.25);
+  border-bottom-color: var(--white);
 }
 #footer a {
-  color: rgba(255, 255, 255, 0.5);
+  color: var(--white);
   text-decoration: none;
 }
 #footer a:hover {
@@ -701,8 +693,11 @@ body.is-preload #banner:before {
   padding-right: 10px;
   padding-bottom: 5px;
   width: 40px;
+  vertical-align: middle;
 }
-
+li {
+  padding-bottom: 10px;
+}
 /* Main */
 #main .content {
   background: var(--white);
@@ -876,6 +871,16 @@ body.is-preload #banner:before {
     font-size: 24px;
   }
 }
+@media only screen and (max-width: 979px) and (min-width: 768px) {
+  .ag-courses_item {
+    -ms-flex-preferred-size: calc(50% - 30px); 
+    flex-basis: calc(50% - 30px);
+  }
+  .ag-courses-item_title {
+    font-size: 26px; 
+  }
+}
+
 @media only screen and (max-width: 767px) {
   .ag-format-container {
     width: 96%;
@@ -932,4 +937,7 @@ ul {
   font-style: italic;
   text-align: justify;
   font-weight: 500;
+}
+.illustration-img {
+  width : 85%;
 }
