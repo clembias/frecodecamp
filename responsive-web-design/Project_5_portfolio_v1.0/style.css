@@ -802,26 +802,20 @@ body.is-preload #banner:before {
   align-items: flex-start;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-
   padding: 50px 0;
 }
 .ag-courses_item {
   -ms-flex-preferred-size: calc(33.33333% - 30px);
   flex-basis: calc(33.33333% - 30px);
-
   margin: 0 15px 30px;
-
   overflow: hidden;
-
   border-radius: 28px;
 }
 .ag-courses-item_link {
   display: block;
   padding: 30px 20px;
   background-color: var(--black);
-
   overflow: hidden;
-
   position: relative;
 }
 .ag-courses-item_link:hover,
@@ -837,36 +831,22 @@ body.is-preload #banner:before {
 .ag-courses-item_title {
   min-height: 87px;
   margin: 0 0 25px;
-
   overflow: hidden;
-
   font-weight: bold;
   font-size: 30px;
   color: var(--white);
-
   z-index: 2;
   position: relative;
 }
-.ag-courses-item_date-box {
-  font-size: 18px;
-  color: var(--white);
-
-  z-index: 2;
-  position: relative;
-}
-
 .ag-courses-item_bg {
   height: 128px;
   width: 128px;
   background-color: #f9b234;
-
   z-index: 1;
   position: absolute;
   top: -75px;
   right: -75px;
-
   border-radius: 50%;
-
   -webkit-transition: all 0.5s ease;
   -o-transition: all 0.5s ease;
   transition: all 0.5s ease;
@@ -909,14 +889,10 @@ body.is-preload #banner:before {
   .ag-courses-item_title {
     min-height: 72px;
     line-height: 1;
-
     font-size: 24px;
   }
   .ag-courses-item_link {
     padding: 22px 40px;
-  }
-  .ag-courses-item_date-box {
-    font-size: 16px;
   }
 }
 /* Project card end */
@@ -936,6 +912,8 @@ body.is-preload #banner:before {
   display: inline;
   align-content: space-between;
   padding: 15px 20px 5px 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 .nav-link {
   text-decoration: none;
