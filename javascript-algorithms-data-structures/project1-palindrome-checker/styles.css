@@ -1,0 +1,60 @@
+body {
+    background-color: lightsteelblue;
+    margin:0;
+    height:100vh; 
+    display:grid;             
+    place-items: center;
+}
+
+#palindrome-checker {
+  background-color: blueviolet; 
+  padding-left: 20px; 
+  padding-right: 20px;
+  padding-bottom: 10px;
+  border-radius: 5px;
+}
+
+h1 {
+    font-weight: 700;
+}
+
+#text-input {
+    box-shadow: inset black 0 0 0 0.5px;
+    border: 0;
+    background: rgba(0, 0, 0, 0);
+    appearance: none;
+    position: relative;
+    border-radius: 3px;
+    padding: 9px 9px;
+    line-height: 1.4;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    font-weight: 400;
+    height: 20px;
+    margin-right: 5px;
+    transition: all .2s ease;
+    :hover{
+        box-shadow: 0 0 0 0 #fff inset, #1899D6 0 0 0 2px;
+    }
+    :focus{
+        background: #fff;
+        outline: 0;
+        box-shadow: 0 0 0 0 #fff inset, #1899D6 0 0 0 3px;
+    }
+
+}
+
+#check-btn {
+      appearance: button;
+      background-color: #1899D6;
+      border: solid transparent;
+      border-radius: 16px;
+      box-sizing: border-box;
+      color: black;
+      cursor: pointer;
+      padding : 0 10px 0 10px;
+}
+ 
+#result {
+ font-style: italic;
+}

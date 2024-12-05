@@ -15,8 +15,8 @@ button.addEventListener("click", function() {
     let charactersString = charactersArray.join(''); 
     let charactersStringReversed = charactersArrayReversed.join(''); 
 
-    console.log(charactersString);
-    console.log(charactersStringReversed);
+   /* console.log(charactersString);
+    console.log(charactersStringReversed); */
 
     
     if (charactersString.toLowerCase() === charactersStringReversed.toLowerCase()) {
