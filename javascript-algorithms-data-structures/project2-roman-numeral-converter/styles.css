@@ -1,0 +1,104 @@
+body {
+    background-color:navajowhite;
+    margin:0;
+    height:100vh; 
+    display:grid;             
+    place-items: center;
+}
+
+#roman-converter {
+        background-color: orange; 
+        padding-left: 20px; 
+        padding-right: 20px;
+        padding-bottom: 10px;
+        border-radius: 5px;
+}
+      
+.input {
+        width: 100%;
+        max-width: 220px;
+        height: 30px;
+        padding: 8px;
+        border-radius: 12px;
+        border: 1.5px solid lightgrey;
+        outline: none;
+        transition: all 0.3s cubic-bezier(0.19, 1, 0.22, 1);
+        box-shadow: 0px 0px 20px -18px;
+      }
+      
+      .input:hover {
+        border: 2px solid lightgrey;
+        box-shadow: 0px 0px 20px -17px;
+      }
+      
+      .input:active {
+        transform: scale(0.95);
+      }
+      
+      .input:focus {
+        border: 2px solid grey;
+      }
+
+.button {
+        align-items: center;
+        appearance: none;
+        background-color: #fcfcfd;
+        border-radius: 4px;
+        border-width: 0;
+        box-shadow:
+          rgba(45, 35, 66, 0.2) 0 2px 4px,
+          rgba(45, 35, 66, 0.15) 0 7px 13px -3px,
+          #d6d6e7 0 -3px 0 inset;
+        box-sizing: border-box;
+        color: #36395a;
+        cursor: pointer;
+        display: inline-flex;
+        height: 28px;
+        justify-content: center;
+        line-height: 1;
+        list-style: none;
+        overflow: hidden;
+        padding-left: 16px;
+        padding-right: 16px;
+        position: relative;
+        text-align: left;
+        text-decoration: none;
+        transition:
+          box-shadow 0.15s,
+          transform 0.15s;
+        user-select: none;
+        -webkit-user-select: none;
+        touch-action: manipulation;
+        white-space: nowrap;
+        will-change: box-shadow, transform;
+        font-size: 18px;
+        margin-left: 20px;
+      }
+
+.button:focus {
+    box-shadow:
+    #d6d6e7 0 0 0 1.5px inset,
+    rgba(45, 35, 66, 0.4) 0 2px 4px,
+    rgba(45, 35, 66, 0.3) 0 7px 13px -3px,
+    #d6d6e7 0 -3px 0 inset;
+    }
+      
+.button:hover {
+    box-shadow:
+    rgba(45, 35, 66, 0.3) 0 4px 8px,
+    rgba(45, 35, 66, 0.2) 0 7px 13px -3px,
+    #d6d6e7 0 -3px 0 inset;
+    transform: translateY(-2px);
+      }
+      
+.button:active {
+    box-shadow: #d6d6e7 0 3px 7px inset;
+    transform: translateY(2px);
+    }
+
+#output {
+    font-family: Helvetica, sans-serif;
+    font-style: bold;
+    font-weight: 900;
+    margin-left: 20px;
+}
